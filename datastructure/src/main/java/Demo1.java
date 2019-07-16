@@ -20,20 +20,24 @@ public class Demo1 {
 
     @Test
     public void fun() {
-        /*Demo1 demo1 = new Demo1();
+        Demo1 demo1 = new Demo1();
         Demo1 demo2 = new Demo1();
 
         demo1.obj = demo2;
         demo2.obj = demo1;
 
         demo1 = null;
-        demo2 = null;*/
+        demo2 = null;
 
         "".getBytes();
         System.out.println(false||true);
     }
 
     public void add() {
+        int i = 100086;
+        add();
+    }
+    public void add1() {
         int i = 100086;
         add();
     }
