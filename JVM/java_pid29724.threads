@@ -1,0 +1,179 @@
+Thread 0xff6cf408
+  at java.net.SocketInputStream.socketRead0(Ljava/io/FileDescriptor;[BIII)I (Native Method)
+  at java.net.SocketInputStream.socketRead(Ljava/io/FileDescriptor;[BIII)I (SocketInputStream.java:116)
+  at java.net.SocketInputStream.read([BIII)I (SocketInputStream.java:171)
+  at java.net.SocketInputStream.read([BII)I (SocketInputStream.java:141)
+  at sun.nio.cs.StreamDecoder.readBytes()I (StreamDecoder.java:284)
+  at sun.nio.cs.StreamDecoder.implRead([CII)I (StreamDecoder.java:326)
+  at sun.nio.cs.StreamDecoder.read([CII)I (StreamDecoder.java:178)
+  at java.io.InputStreamReader.read([CII)I (InputStreamReader.java:184)
+  at java.io.BufferedReader.fill()V (BufferedReader.java:161)
+  at java.io.BufferedReader.readLine(Z)Ljava/lang/String; (BufferedReader.java:324)
+  at java.io.BufferedReader.readLine()Ljava/lang/String; (BufferedReader.java:389)
+  at com.intellij.rt.execution.application.AppMainV2$1.run()V (AppMainV2.java:64)
+
+  locals:
+    objectId=0xff6cf588, line=1
+    objectId=0xff6cf5b8, line=1
+    objectId=0xff6cf5e0, line=1
+    objectId=0xff6cf588, line=2
+    objectId=0xff6cf5e0, line=2
+    objectId=0xff6cf5b8, line=2
+    objectId=0xff6cf588, line=3
+    objectId=0xff6cf5e0, line=3
+    objectId=0xff6d15f0, line=4
+    objectId=0xff6d15f0, line=5
+    objectId=0xff6d1620, line=5
+    objectId=0xff6d5630, line=5
+    objectId=0xff6ad3d8, line=5
+    objectId=0xff6d15f0, line=6
+    objectId=0xff6d1620, line=6
+    objectId=0xff6d5660, line=6
+    objectId=0xff6d5660, line=7
+    objectId=0xff6d1620, line=7
+    objectId=0xff6d5678, line=8
+    objectId=0xff6d5678, line=9
+    objectId=0xff6d5660, line=9
+    objectId=0xff6d5678, line=10
+    objectId=0xff6cf408, line=11
+    objectId=0xff6d56a8, line=11
+    objectId=0xff6d5678, line=11
+
+Thread 0xff6af5a0
+
+  locals:
+
+Thread 0xff6d56c8
+
+  locals:
+
+Thread 0xff6d5840
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:144)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (ReferenceQueue.java:165)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Finalizer.java:216)
+
+  locals:
+    objectId=0xff6ad610, line=1
+    objectId=0xff6ad630, line=1
+    objectId=0xff6ad610, line=2
+    objectId=0xff6d5840, line=3
+    objectId=0xff6d59c0, line=3
+
+Thread 0xff6d59d0
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:502)
+  at java.lang.ref.Reference.tryHandlePending(Z)Z (Reference.java:191)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Reference.java:153)
+
+  locals:
+    objectId=0xff6ae770, line=1
+    objectId=0xff6ae770, line=2
+    objectId=0xff6d59d0, line=3
+
+Thread 0xff6d5f48
+  at java.lang.OutOfMemoryError.<init>()V (OutOfMemoryError.java:48)
+  at Demo.User.<init>()V (User.java:12)
+  at Demo.Demo.fun()V (Demo.java:17)
+  at sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Native Method)
+  at sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (NativeMethodAccessorImpl.java:62)
+  at sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (DelegatingMethodAccessorImpl.java:43)
+  at java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Method.java:498)
+  at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall()Ljava/lang/Object; (FrameworkMethod.java:59)
+  at org.junit.internal.runners.model.ReflectiveCallable.run()Ljava/lang/Object; (ReflectiveCallable.java:12)
+  at org.junit.runners.model.FrameworkMethod.invokeExplosively(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (FrameworkMethod.java:56)
+  at org.junit.internal.runners.statements.InvokeMethod.evaluate()V (InvokeMethod.java:17)
+  at org.junit.runners.ParentRunner$3.evaluate()V (ParentRunner.java:305)
+  at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate()V (BlockJUnit4ClassRunner.java:100)
+  at org.junit.runners.ParentRunner.runLeaf(Lorg/junit/runners/model/Statement;Lorg/junit/runner/Description;Lorg/junit/runner/notification/RunNotifier;)V (ParentRunner.java:365)
+  at org.junit.runners.BlockJUnit4ClassRunner.runChild(Lorg/junit/runners/model/FrameworkMethod;Lorg/junit/runner/notification/RunNotifier;)V (BlockJUnit4ClassRunner.java:103)
+  at org.junit.runners.BlockJUnit4ClassRunner.runChild(Ljava/lang/Object;Lorg/junit/runner/notification/RunNotifier;)V (BlockJUnit4ClassRunner.java:63)
+  at org.junit.runners.ParentRunner$4.run()V (ParentRunner.java:330)
+  at org.junit.runners.ParentRunner$1.schedule(Ljava/lang/Runnable;)V (ParentRunner.java:78)
+  at org.junit.runners.ParentRunner.runChildren(Lorg/junit/runner/notification/RunNotifier;)V (ParentRunner.java:328)
+  at org.junit.runners.ParentRunner.access$100(Lorg/junit/runners/ParentRunner;Lorg/junit/runner/notification/RunNotifier;)V (ParentRunner.java:65)
+  at org.junit.runners.ParentRunner$2.evaluate()V (ParentRunner.java:292)
+  at org.junit.runners.ParentRunner$3.evaluate()V (ParentRunner.java:305)
+  at org.junit.runners.ParentRunner.run(Lorg/junit/runner/notification/RunNotifier;)V (ParentRunner.java:412)
+  at org.junit.runner.JUnitCore.run(Lorg/junit/runner/Runner;)Lorg/junit/runner/Result; (JUnitCore.java:137)
+  at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs([Ljava/lang/String;Ljava/lang/String;IZ)I (JUnit4IdeaTestRunner.java:68)
+  at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(Lcom/intellij/rt/execution/junit/IdeaTestRunner;[Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;IZ)I (IdeaTestRunner.java:47)
+  at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart([Ljava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)I (JUnitStarter.java:242)
+  at com.intellij.rt.execution.junit.JUnitStarter.main([Ljava/lang/String;)V (JUnitStarter.java:70)
+
+  locals:
+    objectId=0xff6d5b68, line=1
+    objectId=0xff6d5b48, line=2
+    objectId=0xff6d5b88, line=2
+    objectId=0xff6b4280, line=4
+    objectId=0xff6d5b48, line=4
+    objectId=0xff6d5b58, line=4
+    objectId=0xff6b4270, line=5
+    objectId=0xff6d5b48, line=5
+    objectId=0xff6d5b58, line=5
+    objectId=0xff6b4298, line=6
+    objectId=0xff6d5b48, line=6
+    objectId=0xff6d5b58, line=6
+    objectId=0xff6b4270, line=6
+    objectId=0xff6d5c08, line=7
+    objectId=0xff6d5c08, line=8
+    objectId=0xff6d5c20, line=9
+    objectId=0xff6d5b48, line=9
+    objectId=0xff6d5b58, line=9
+    objectId=0xff6d5c30, line=10
+    objectId=0xff6d5c48, line=11
+    objectId=0xff6d5c60, line=12
+    objectId=0xff6d5c78, line=13
+    objectId=0xff6d5c60, line=13
+    objectId=0xff6d5c98, line=13
+    objectId=0xff6d5cb8, line=13
+    objectId=0xff6d5cd0, line=13
+    objectId=0xff6d5c78, line=14
+    objectId=0xff6d5c20, line=14
+    objectId=0xff6d5cb8, line=14
+    objectId=0xff6d5c98, line=14
+    objectId=0xff6d5c60, line=14
+    objectId=0xff6d5c78, line=15
+    objectId=0xff6d5c20, line=15
+    objectId=0xff6d5cb8, line=15
+    objectId=0xff6d5ce8, line=16
+    objectId=0xff6d5d00, line=17
+    objectId=0xff6d5ce8, line=17
+    objectId=0xff6d5c78, line=18
+    objectId=0xff6d5cb8, line=18
+    objectId=0xff6d5d00, line=18
+    objectId=0xff6d5d10, line=18
+    objectId=0xff6d5c20, line=18
+    objectId=0xff6d5c78, line=19
+    objectId=0xff6d5cb8, line=19
+    objectId=0xff6d5d28, line=20
+    objectId=0xff6d5d40, line=21
+    objectId=0xff6d5c78, line=22
+    objectId=0xff6d5cb8, line=22
+    objectId=0xff6d5d58, line=22
+    objectId=0xff6d5d40, line=22
+    objectId=0xff6d5d70, line=23
+    objectId=0xff6d5c78, line=23
+    objectId=0xff6d5d80, line=23
+    objectId=0xff6d5da8, line=23
+    objectId=0xff6d5db8, line=24
+    objectId=0xff6d5dd0, line=24
+    objectId=0xff6d5de8, line=24
+    objectId=0xff6d5c78, line=24
+    objectId=0xff6d5c98, line=24
+    objectId=0xff6d5d70, line=24
+    objectId=0xff6d5e00, line=24
+    objectId=0xff6d5db8, line=25
+    objectId=0xff6d5dd0, line=25
+    objectId=0xff6d5e20, line=25
+    objectId=0xff6d5dd0, line=26
+    objectId=0xff696848, line=26
+    objectId=0xff6d5e20, line=26
+    objectId=0xff6d5db8, line=26
+    objectId=0xff6d5e38, line=27
+    objectId=0xff6d5e58, line=27
+    objectId=0xff6d5e20, line=27
+    objectId=0xff6d5e78, line=27
+    objectId=0xff696848, line=27
+    objectId=0xff6d5dd0, line=27
+
