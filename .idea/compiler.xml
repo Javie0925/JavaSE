@@ -9,13 +9,15 @@
         <module name="datastructure" />
         <module name="JVM" />
         <module name="socket" />
+        <module name="thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="datastructure" target="1.7" />
+      <module name="datastructure" target="1.8" />
       <module name="javase" target="1.5" />
       <module name="JVM" target="1.5" />
       <module name="socket" target="1.5" />
+      <module name="thread" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

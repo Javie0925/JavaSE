@@ -12,6 +12,7 @@
         <module>socket</module>
         <module>datastructure</module>
         <module>JVM</module>
+        <module>thread</module>
     </modules>
 
 

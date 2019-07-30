@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>javase</groupId>
-    <artifactId>datastructure</artifactId>
+    <artifactId>thread</artifactId>
     <build>
         <plugins>
             <plugin>
@@ -23,13 +23,6 @@
             </plugin>
         </plugins>
     </build>
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>RELEASE</version>
-        </dependency>
-    </dependencies>
 
 
 </project>
