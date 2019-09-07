@@ -13,7 +13,48 @@
         <module>datastructure</module>
         <module>JVM</module>
         <module>thread</module>
+        <module>classload</module>
+        <module>classloader</module>
+        <module>my_classloader</module>
+        <module>springMVC</module>
+        <module>spring_MVC</module>
+        <module>maven_web</module>
+        <module>jdbc</module>
+        <module>tomcat</module>
+        <module>mybatis</module>
+        <module>mybatis_inaction</module>
+        <module>nio</module>
+        <module>lucene_solr</module>
+        <module>noi_netty</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.1.7.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.1.7.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <cdh.version>cdh5.5.2</cdh.version>
+        <!--add  maven release-->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <encoding>UTF-8</encoding>
+        <scala.tools.version>2.10</scala.tools.version>
+        <scala.version>2.10.4</scala.version>
+    </properties>
 
 </project>

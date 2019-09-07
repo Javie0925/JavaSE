@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="maven_web:war exploded">
+    <output-path>$PROJECT_DIR$/maven_web/target/maven_web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="maven_web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:3.0-alpha-1" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.19" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-annotations-api:9.0.19" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.7.RELEASE" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/maven_web/target/maven_web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="maven_web/web/Web" />
+    </root>
+  </artifact>
+</component>

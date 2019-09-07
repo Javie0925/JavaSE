@@ -8,7 +8,26 @@ import java.util.*;
  */
 public class Demo2 {
 
-    static private char aChar;
+    public static void main(String[] args) {
+        Set<Object> set = new HashSet<>();
+
+        Iterator<Object> iterator = set.iterator();
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
+
+        Vector<Object> vector = new Vector<>();
+        Vector<Object> newVector = new Vector<>();
+        while (!vector.isEmpty()){
+            Object remove = vector.remove(0);
+            if (!vector.contains(remove)){
+                newVector.add(remove);
+            }
+        }
+
+    }
+
+    /*static private char aChar;
 
     public int add(int a,int b){
         return 0;
@@ -20,6 +39,6 @@ public class Demo2 {
         ArrayList<Integer> list = new ArrayList<>();
         // "".matches()
         LinkedHashMap<Object, Object> linkedHashMap = new LinkedHashMap<>();
-    }
+    }*/
 
 }

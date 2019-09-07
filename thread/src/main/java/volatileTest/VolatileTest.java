@@ -19,6 +19,8 @@ public class VolatileTest {
                 if (localValue!=INIT_VALUE){
                     System.out.printf("The localValue update to [%d]\n",INIT_VALUE);
                     localValue = INIT_VALUE;
+                }else {
+                    System.out.println("localValue: "+localValue+",INIT_VALUE: "+INIT_VALUE);
                 }
             }
         },"READ").start();
@@ -28,7 +30,7 @@ public class VolatileTest {
                 System.out.printf("Update the localValue  to [%d]\n",++localValue);
                 INIT_VALUE = localValue;
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(50);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

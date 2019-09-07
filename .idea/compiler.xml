@@ -6,18 +6,42 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="classloader" />
         <module name="datastructure" />
+        <module name="jdbc" />
         <module name="JVM" />
+        <module name="lucene_solr" />
+        <module name="maven_web" />
+        <module name="my_classloader" />
+        <module name="mybatis" />
+        <module name="mybatis_inaction" />
+        <module name="nio" />
+        <module name="noi_netty" />
         <module name="socket" />
+        <module name="spring_MVC" />
+        <module name="springMVC" />
         <module name="thread" />
+        <module name="tomcat" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
+      <module name="classloader" target="1.8" />
       <module name="datastructure" target="1.8" />
-      <module name="javase" target="1.5" />
-      <module name="JVM" target="1.5" />
-      <module name="socket" target="1.5" />
+      <module name="javase" target="1.8" />
+      <module name="jdbc" target="1.8" />
+      <module name="JVM" target="1.8" />
+      <module name="lucene_solr" target="1.8" />
+      <module name="maven_web" target="1.7" />
+      <module name="my_classloader" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="mybatis_inaction" target="1.8" />
+      <module name="nio" target="1.8" />
+      <module name="noi_netty" target="1.8" />
+      <module name="socket" target="1.8" />
+      <module name="spring_MVC" target="1.8" />
+      <module name="springMVC" target="1.8" />
       <module name="thread" target="1.8" />
+      <module name="tomcat" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

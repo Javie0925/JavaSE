@@ -20,6 +20,7 @@ public class EnumSingleton {
      * 枚举类是线程安全的，而且类只会被装载一次
      */
     private enum Singleton{
+
         INSTANCE;
 
         private final EnumSingleton instance;

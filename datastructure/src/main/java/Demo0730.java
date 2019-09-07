@@ -9,15 +9,26 @@ import java.util.Observer;
  */
 public class Demo0730 {
 
-    @Test
-    public void fun(){
-        Object o = new Object();
-        try {
-                 Object clone = this.clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
+    public static final boolean flag = false;
+
+    private String name;
+
+    private int age;
+
+    private String getName() {
+        return name;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
 
