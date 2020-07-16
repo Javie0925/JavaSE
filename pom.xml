@@ -26,6 +26,8 @@
         <module>nio</module>
         <module>lucene_solr</module>
         <module>noi_netty</module>
+        <module>design_pattern</module>
+        <module>springboot_test</module>
     </modules>
 
     <dependencies>
@@ -38,6 +40,11 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>5.1.7.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.6</version>
         </dependency>
     </dependencies>
 

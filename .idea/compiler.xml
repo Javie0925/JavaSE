@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="classloader" />
         <module name="datastructure" />
+        <module name="design_pattern" />
         <module name="jdbc" />
         <module name="JVM" />
         <module name="lucene_solr" />
@@ -19,6 +20,7 @@
         <module name="noi_netty" />
         <module name="socket" />
         <module name="spring_MVC" />
+        <module name="springboot_test" />
         <module name="springMVC" />
         <module name="thread" />
         <module name="tomcat" />
@@ -27,6 +29,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="classloader" target="1.8" />
       <module name="datastructure" target="1.8" />
+      <module name="design_pattern" target="1.8" />
       <module name="javase" target="1.8" />
       <module name="jdbc" target="1.8" />
       <module name="JVM" target="1.8" />
@@ -39,6 +42,7 @@
       <module name="noi_netty" target="1.8" />
       <module name="socket" target="1.8" />
       <module name="spring_MVC" target="1.8" />
+      <module name="springboot_test" target="1.8" />
       <module name="springMVC" target="1.8" />
       <module name="thread" target="1.8" />
       <module name="tomcat" target="1.8" />
